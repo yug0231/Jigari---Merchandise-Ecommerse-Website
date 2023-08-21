@@ -1,0 +1,29 @@
+#ContactUsPage >h1{
+    border-bottom: 2px solid #E74037;
+    width: 35%;
+    margin: auto;
+    padding-bottom:1vh ;
+    margin-top: 2vh;
+}
+
+#ContactUsPage h2{
+    color: #191C1B;
+    width: 100%;
+    font-size: xx-large;
+    margin: auto;
+    padding-bottom:1vh ;
+    margin-top: 2vh;
+}
+.ContactUsPage-MyOrdersButton{
+    width: 30%;
+    padding: 10px;
+    background-color: #191C1B;
+    color: white;
+    border-radius: 20px;
+    margin: auto;
+    margin: 20px auto 20px auto;
+    transition: 0.2s;
+}
+.ContactUsPage-MyOrdersButton:hover{
+    background-color: #E74037;
+}

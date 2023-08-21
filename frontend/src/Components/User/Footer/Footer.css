@@ -1,0 +1,105 @@
+#footer{
+    background-color: #191C1B;
+    padding-bottom: 10%;
+    height: 100%;
+    padding-top: 3%;
+    margin-top: 1vh;
+}
+h2{
+    color: #E74037;
+    font-size: 80%;
+    margin-bottom: 5%;
+}
+p{
+    color: white;
+    font-size: 80%;
+}
+#footerTop{
+    display: grid;
+    width: 80%;
+    margin: auto;
+    grid-template-columns: repeat(4,1fr);
+    gap: 5%
+}
+.footerTopColumn{
+    text-align: left;
+}
+.socialmediaHide{
+    display: flex;
+    align-items:center;
+}
+.socialIcon{
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+}
+.socialMediaRow{
+    padding-top: 5px;
+}
+.subscribeBox{
+    display: flex;
+}
+.subscribeBtn{
+    background-color: #E74037;
+    color: black;
+    stroke:none;
+    border: none;
+    outline: none;
+    padding: 5px;
+}
+.subscribeBtn:hover{
+    background-color: #E74037;
+ 
+}
+.subscribeEmailBox{
+    background-color: none;
+}
+.subscribeBox input[type=text] {
+    background-color: #181818;
+    color: white;
+    border: 1px solid #E74037;
+    stroke: none;
+    outline: none;
+    box-shadow: none;
+    
+ }
+ .subscribeBox input[type=text]:focus {
+    background-color: #181818;
+    color: white;
+    stroke: none;
+    outline: none;
+ }
+ .appDownBtn{
+    width: 50%;
+    margin-right: 2%;
+ }
+ #footerBottom{
+    padding-top: 10%;
+    width: 80%;
+    margin: auto;
+    text-align: left;
+ }
+ #footerBottom h2{
+    padding-bottom: 0%;
+    margin: 0;
+ }
+ #footerBottom p{
+    padding: 0;
+    margin: 0;
+ }
+#copyright-line{
+    background-color: #E74037;
+    padding: 1vh;
+    margin-top: 3vh;
+}
+ @media (max-width:886px){
+
+ }
+ @media (max-width: 480px){ 
+     #footer{
+         height: 0;
+         padding: 0;
+         margin: 0;
+         overflow-y: hidden;
+     }
+ }

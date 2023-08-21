@@ -1,0 +1,43 @@
+#TopBar{
+    background-color: #E74037;
+    justify-content: space-around;
+}
+#TopBar-centerContainer{
+    width: 80%;
+    margin: auto;
+    display: flex;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+#TopBar-LeftSection{
+    width: 100%;
+    display: flex;
+    justify-content:flex-start;
+}
+#TopBar-RightSection{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+.TopBar-item{
+    padding: .5% 0 .5% 0;
+}
+#TopBar-LeftSection >.TopBar-item{
+    margin: 0 3vw 0 0vw;
+}
+
+#TopBar-RightSection >.TopBar-item{
+    margin: 0 0vw 0 3vw;
+}
+
+@media (max-width:886px){
+
+}
+@media (max-width: 480px){ 
+    #TopBar{
+        height: 0;
+        overflow-y: hidden;
+    }
+}

@@ -1,0 +1,95 @@
+#NavBar-Mobile{
+    height: 0;
+    overflow-y: hidden;
+}
+#NavBar{
+    height: 7vh;
+    width: 100%;
+    border-bottom:1px solid rgb(225, 221, 221);
+    z-index: 10000;
+    /* background-color: aqua; */
+}
+#NavBarContainer{
+    width: 80%;
+    margin: auto;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+#NavBar-leftSection{
+    width: 60%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    text-align: left;
+}
+#logoDiv{
+    width:25%;
+    margin: auto auto auto 0;
+    text-align: left;
+    margin: 1.5vh auto auto 0;
+}
+#NavBar-leftMenu{
+    display: flex;
+    /* background-color: black; */
+    width: 100%;
+    height: 100%;
+    justify-content: space-evenly;
+    padding-top: 2vh;
+}
+.NavBarMenuItem{
+    height: 100%;
+    color: #250E0E;
+    font-weight: 500;
+}
+.NavBarMenuItem:hover{
+    border-bottom: 2px solid #E74037;
+    color: #E74037;
+}
+#NavBar-rightSection{
+    width: 20%;
+}
+#NavBar-rightMenu{
+    display: flex;
+    /* background-color: black; */
+    width: 100%;
+    height: 100%;
+    justify-content: space-between;
+    padding-top: 2vh;
+}
+#NavBar-rightMenu > .NavBarMenuItem{
+    color: #250E0E;
+}
+@media (max-width:886px){
+
+}
+@media (max-width: 480px){ 
+    /* #NavBar-leftSection{
+        width: 100%;
+        justify-content: center;
+        text-align: center;
+        display: grid;
+    }
+    #NavBar-leftMenu{
+        height: 0;
+        overflow-y: hidden;
+        padding: 0
+    }
+    #logoDiv{
+        width:50%;
+        margin: auto;
+        margin: 1.5vh auto auto auto;
+        justify-content: center;
+    } */
+
+/* Trial for mobile menu */
+#NavBar{
+    height: 0;
+    overflow-y: hidden;
+}
+#NavBar-Mobile{
+    height: auto;
+    background-color: #E74037;
+    height: 50px;
+}
+}
