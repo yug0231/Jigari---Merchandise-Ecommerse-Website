@@ -17,10 +17,10 @@ const Footer = () => {
         <div id="footerTop">
           <div class="footerTopColumn">
             <h2>CUSTOMER SERVICE</h2>
-            <p>Contact Us</p>
-            <p>Track Order</p>
-            <p>Return Order</p>
-            <p>Cancel Order</p>
+            <Link to="/contact-us"><p>Contact Us</p></Link>
+            <Link to="/trackorder"><p>Track Order</p></Link>
+            <Link to=""><p>Return Order</p></Link>
+            <Link to=""><p>Cancel Order</p></Link>
           </div>
           <div class="footerTopColumn">
             <h2>COMPANY</h2>
@@ -60,7 +60,7 @@ const Footer = () => {
           </div>
           <div class="footerTopColumn">
             <h2>APP GOING LIVE SOON</h2>
-            <p>15 Days return policy*</p>
+            <p>7 Days return policy*</p>
             <p>Cash on delivery*</p>
           </div>
           <div class="footerTopColumn">
@@ -362,7 +362,7 @@ const Footer = () => {
             your hard earned money being stuck when you buy clothes online at
             bewakoof.com. Avail exciting online shopping offers like designs of
             the day and colour of the month when you shop with us. Make sure to
-            use our easy 15-day returns policy, card or cash on delivery option
+            use our easy 7-day returns policy, card or cash on delivery option
             and other customer-friendly features. A comprehensive sizing guide
             and detailed product descriptions coupled with high-resolution
             product shots will give you all the information to make the right

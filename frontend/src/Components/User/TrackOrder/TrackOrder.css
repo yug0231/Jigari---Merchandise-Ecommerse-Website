@@ -1,0 +1,48 @@
+#trackOrderPage h1{
+    border-bottom: 2px solid #E74037;
+    width: 20%;
+    margin: auto;
+    padding-bottom:1vh ;
+    margin-bottom: 1vh;
+    margin-top: 2vh;
+}
+.trackOrdersDiv{
+    background-color: white;
+    /* border: 1px solid #E74037; */
+    width: 50%;
+    margin: 50px auto 50px auto;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    padding: 30px;
+}
+
+.trackOrderbtn{
+    width: 20%;
+    background-color: #323232;
+    color: white;
+    margin: auto;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px auto 5px auto;
+    transition: 0.2s;
+    cursor: pointer;
+    
+}
+.trackOrderbtn:hover{
+    background-color: #E74037;
+}
+.TrackOrderInputBox{
+    width: 350px;
+    height: 30px;
+    margin: 2%;
+    background-color: #f6f6f6;
+    border: 1px solid #f6f6f6;
+    padding: 15px;
+}
+input[type=text]:focus {
+    border: 1px solid #E74037;
+    outline: none;
+  }
+
+.trackOrdersDiv p {
+    color: #323232;
+}

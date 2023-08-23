@@ -4,9 +4,9 @@ import { NavLink } from 'react-router-dom'
 
 export const PageNotFound = () => {
     return (
-        <div>
+        <div id='PageNotFound'>
             <img src='../Images/PageNotFound/pagenotfound.png' className='image404' />
-            <p style={{ "fontSize": "Large" }}>Maybe you’ll find it in one of these categories:</p>
+            <p style={{ "fontSize": "Large", "color":"323333" }}>Maybe you’ll find it in one of these categories:</p>
             <div className='PageNotFoundCategories'>
                 {/* part-1 */}
                 <div className='PageNotFound-Category-title'> Men
@@ -17,7 +17,6 @@ export const PageNotFound = () => {
                         <div className='PageNotFound-Category subCategory'> Trunks</div>
                     </div>
                 </div>
-
 
                 {/* Part-2 */}
                 <div className='PageNotFound-Category-title'> Women

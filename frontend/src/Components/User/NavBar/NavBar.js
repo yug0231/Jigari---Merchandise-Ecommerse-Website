@@ -13,6 +13,7 @@ const NavBar = () => {
                 <div id="NavBar-leftMenu">
                   <NavLink to="products/men"><div className='NavBarMenuItem'>Men</div></NavLink>
                   <NavLink to="products/women"><div className='NavBarMenuItem'>Women</div></NavLink>
+                  <NavLink to="products/kids"><div className='NavBarMenuItem'>Kids</div></NavLink>
                   <NavLink to="products/mobile-covers"><div className='NavBarMenuItem'>Mobile Covers</div></NavLink>
                   <NavLink to="products/accessories"><div className='NavBarMenuItem'> Accessories</div></NavLink>
                 </div>

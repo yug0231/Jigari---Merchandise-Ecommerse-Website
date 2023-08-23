@@ -1,0 +1,14 @@
+#offersPage h1{
+    border-bottom: 2px solid #E74037;
+    width: 20%;
+    margin: auto;
+    padding-bottom:1vh ;
+    margin-bottom: 1vh;
+    margin-top: 2vh;
+}
+.OffersDiv{
+    display: grid;;
+    width: 80%;
+    grid-template-columns: repeat(2,1fr);
+    margin: auto;
+}

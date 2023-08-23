@@ -9,6 +9,10 @@
     z-index: 10000;
     /* background-color: aqua; */
 }
+#NavBar-leftMenu a.active{
+    color: #E74037;
+    border-bottom: 2px solid #E74037;
+}
 #NavBarContainer{
     width: 80%;
     margin: auto;

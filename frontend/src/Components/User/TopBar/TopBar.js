@@ -11,7 +11,7 @@ const TopBar = () => {
           <p className='TopBar-item'><Link to="/fanbook">Fanbook</Link></p>
         </div>
         <div id='TopBar-RightSection'>
-          <p className='TopBar-item'><Link to="/contactus">Contact Us</Link></p>
+          <p className='TopBar-item'><Link to="/contact-us">Contact Us</Link></p>
           <p className='TopBar-item'><Link to="/trackorder">Trackorder</Link></p>
         </div>
       </div>

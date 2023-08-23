@@ -1,13 +1,14 @@
 #ContactUsPage >h1{
+    color: #323333;
     border-bottom: 2px solid #E74037;
-    width: 35%;
+    width: 15%;
     margin: auto;
     padding-bottom:1vh ;
     margin-top: 2vh;
 }
 
-#ContactUsPage h2{
-    color: #191C1B;
+#ContactUsPage > h2{
+    color: #323333;
     width: 100%;
     font-size: xx-large;
     margin: auto;
@@ -17,7 +18,7 @@
 .ContactUsPage-MyOrdersButton{
     width: 30%;
     padding: 10px;
-    background-color: #191C1B;
+    background-color: #323333;
     color: white;
     border-radius: 20px;
     margin: auto;
@@ -26,4 +27,106 @@
 }
 .ContactUsPage-MyOrdersButton:hover{
     background-color: #E74037;
+}
+.ContactUsPage-help-banner >h2{
+    font-size: x-large;
+    margin: auto;
+    background-color: #E74037;
+    color: white;
+    padding: 25px;
+    padding-bottom: 60px;
+    margin-bottom: 10px;
+}
+.ContactUsPage-GetInTouchSection{
+    width: 70%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 5%;
+    margin: auto;
+    padding: 2vh;
+    padding-bottom: 4vh;
+    border-radius: 20px 20px 0 0;
+    background-color: white;
+    margin-top: -50px;
+    border-bottom: 1px solid #E74037;
+}
+.ContactUsPage-GetInTouchSection h2{
+    font-size: 150%;
+    margin: auto;
+    padding-bottom: 4vh;
+}
+.StayInTouch-socialMedia{
+    margin: 2vh;
+}
+.StayInTouch-socialMedia h2{
+    margin: auto;
+    padding: 1vh;
+}
+.socialDiv-Elements p{
+    color: #323333;
+}
+
+.socialDiv{
+    width: 60%;
+    display: flex;
+    justify-content: space-evenly;
+    margin: auto;
+    padding: 2vh;
+}
+#ContactUsPage-HelpBox{
+    height: 300px;
+    width: 30%;
+    margin: auto;
+    border-radius: 20px;
+    background-color: white;
+    margin-top: -7vh;
+}
+
+#ContactUsPage select{
+    width: 24vw;
+    margin: auto;
+    height: 30px;
+}
+
+.ContactUsPage-FAQs{
+    display: flex;
+    width:70%;
+    margin: auto;
+    text-align: left;
+    /* background-color: #e0e0e0; */
+    padding: 2%;
+    border-bottom:1px solid #E74037;
+}
+.FAQs-Elements a{
+    color: #323333;
+    padding: 2%;
+    text-align: left;
+}
+.ContactUsPage-FAQs-leftSection{
+    width: 100%;
+    border-right:1px solid #848484;
+}
+.FAQs-Elements{
+    padding: 10px;
+}
+.FAQs-Elements a.active{
+    color: #E74037;
+    font-weight: 500;
+}
+.Accordian-Header-Our{
+    color: #323333;
+}
+#Accordion-Div{
+    width: 50vw;
+    margin: auto;
+    padding-right: 2.5vw;
+    padding-left: 2.5vw;
+}
+.CorporateAddressDiv{
+    width: 100%;
+    padding: 20px;
+    border-top: 1px solid #E74037;
+}
+.CorporateAddressDiv p{
+    color: #323333;
 }

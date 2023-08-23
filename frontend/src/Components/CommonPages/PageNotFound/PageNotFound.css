@@ -29,7 +29,9 @@
     grid-template-columns: repeat(4, 1fr);
     padding: 1%;
 }
-
+#PageNotFound p{
+    color: #323333;
+}
 @media (max-width:886px){
 
 }
